@@ -1,0 +1,71 @@
+:root {
+  --white: hsl(0, 0%, 100%);
+  --light-gray: hsl(212, 45%, 89%);
+  --grayish-blue: hsl(220, 15%, 55%);
+  --dark-blue: hsl(218, 44%, 22%);
+  --p-font-size: 15px;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: var(--light-gray);
+
+  margin: 0;
+  padding: 0;
+
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  background-color: var(--white);
+  border-radius: 16px;
+  padding: 16px;
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  width: 300px;
+}
+img {
+  border-radius: 10px;
+}
+h1 {
+  color: var(--dark-blue);
+  font-size: 20px;
+  font-weight: 700;
+
+  margin: 0;
+  padding: 16px 16px 0px 16px;
+}
+p {
+  color: var(--grayish-blue);
+  font-size: var(--p-font-size);
+  font-weight: 400;
+
+  margin: 0;
+  padding: 16px;
+}
+
+.attribution {
+  text-align: center;
+  color: var(--grayish-blue);
+  font-size: var(--p-font-size);
+  font-weight: 400;
+
+  margin: 0;
+  padding-bottom: 16px;
+
+  position: absolute;
+  bottom: 0;
+}
+a {
+  color: var(--dark-blue);
+}
+a:visited {
+  color: grey;
+}
